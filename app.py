@@ -1,6 +1,5 @@
 from flask import *
 import mlab
-from youtube_dl import YoutubeDL 
 from models.users_feedback import Feedback
 
 app = Flask(__name__)
