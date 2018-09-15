@@ -17,7 +17,7 @@ a1.addEventListener("click", function(){
         a1.hidden= true;
         a2.hidden = true;
         ques.hidden=true;
-        $('#result').attr('href','http://localhost:5000/face_detail/Longface') 
+        $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Longface') 
     })
         
     a2.addEventListener("click", function(){
@@ -38,7 +38,7 @@ a1.addEventListener("click", function(){
                 a2.hidden = true;
                 ques.hidden=true;
                 result.hidden=false;
-                $('#result').attr('href','http://localhost:5000/face_detail/Heartface')
+                $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Heartface')
             })
             a2.addEventListener("click", function(){
             result.innerHTML = "Your face is oval";
@@ -46,7 +46,7 @@ a1.addEventListener("click", function(){
             a2.hidden =true;
             ques.hidden=true;
             result.hidden=false;
-            $('#result').attr('href','http://localhost:5000/face_detail/Ovalface') 
+            $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Ovalface') 
 
             })
         })
@@ -60,7 +60,7 @@ a1.addEventListener("click", function(){
                 a2.hidden= true;
                 ques.hidden=true;
                 result.hidden=false;
-                $('#result').attr('href','http://localhost:5000/face_detail/Diamondface')  
+                $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Diamondface')  
 
             })
             a2.addEventListener("click", function(){
@@ -69,7 +69,7 @@ a1.addEventListener("click", function(){
                 a2.hidden=true;
                 ques.hidden=true;
                 result.hidden=false;
-                $('#result').attr('href','http://localhost:5000/face_detail/Triangleface')
+                $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Triangleface')
             })    
         })
     })        
@@ -97,7 +97,7 @@ a2.addEventListener("click", function(){
                 a2.hidden = true;
                 ques.hidden=true;
                 result.hidden=false;
-                $('#result').attr('href','http://localhost:5000/face_detail/Heartface')
+                $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Heartface')
             })
             a2.addEventListener("click", function(){
             result.innerHTML = "Your face is oval";
@@ -105,7 +105,7 @@ a2.addEventListener("click", function(){
             a2.hidden =true;
             ques.hidden=true;
             result.hidden=false;
-            $('#result').attr('href','http://localhost:5000/face_detail/Ovalface') 
+            $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Ovalface') 
 
             })
         })
@@ -119,7 +119,7 @@ a2.addEventListener("click", function(){
                 a2.hidden= true;
                 ques.hidden=true;
                 result.hidden=false;
-                $('#result').attr('href','http://localhost:5000/face_detail/Diamondface')  
+                $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Diamondface')  
 
             })
             a2.addEventListener("click", function(){
@@ -128,7 +128,7 @@ a2.addEventListener("click", function(){
                 a2.hidden=true;
                 ques.hidden=true;
                 result.hidden=false;
-                $('#result').attr('href','http://localhost:5000/face_detail/Triangleface')
+                $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Triangleface')
             })    
         })
     })  
@@ -146,7 +146,7 @@ a2.addEventListener("click", function(){
             a2.hidden = true;
             ques.hidden=true;
             result.hidden=false;
-            $('#result').attr('href','http://localhost:5000/face_detail/Squareface') 
+            $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Squareface') 
         })
         a2.addEventListener("click", function(){
         result.innerHTML = "Your face is round";
@@ -154,7 +154,7 @@ a2.addEventListener("click", function(){
         a1.hidden= true;
         a2.hidden =true;
         result.hidden=false;
-        $('#result').attr('href','http://localhost:5000/face_detail/Roundface')
+        $('#result').attr('href','https://hairstylec4t.herokuapp.com/face_detail/Roundface')
         })
     })      
 })
