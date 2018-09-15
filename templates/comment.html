@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="../static/feedback.css">
+    <style>
+        h1 {
+            font-family:"Lobster", cursive;
+            font-size: 48px;
+        }
+        h2 {
+            font-family: "Pernament Marker", cursive;
+        }
+    </style>
+</head>
+<body>
+    <div id="inner">
+        <h1>User feedback</h1>
+    </div>
+    
+    {% for feedback in feedback_list %}
+    <div style="margin-left:30px">
+            <h2>{{feedback.name}}</h3>
+            <h4>{{feedback.content}}</h4>
+            
+    </div>
+  
+   
+    {% endfor %}
+    
+</body>
+</html>

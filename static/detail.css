@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+
+h3 {
+    color: black;  
+}
+h2 {
+    color: blue;
+}
+#inner {
+    width: 50%;
+    margin: 0 auto;
+}
+
