@@ -63,7 +63,7 @@ def face(face):
     elif face == 'Triangleface':
         return render_template('triangle.html')
     else:
-        return "x-men"
+        return render_template('x-men.html')
     
 @app.route("/detail")
 def detail():
